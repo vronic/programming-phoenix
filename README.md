@@ -64,3 +64,31 @@ http://localhost:4000/).
 
 #### A Simple Home Page
 
+#### Creating Some Users
+
+#### Working With Repositories
+Our application has an interface that looks like a read-only database from the outside, but is a dumb list of maps from the inside.
+We have a working fake repository.
+
+```
+iex -S mix:
+
+iex> alias Rumbl.User iex> alias Rumbl.Repo
+```
+```
+iex> Repo.all User
+
+[%Vinci.User{id: 1, name: "José", password: "elixir", username: "josevalim"},
+ %Vinci.User{id: 2, name: "Bruce", password: "7langs", username: "redrapids"},
+ %Vinci.User{id: 3, name: "Chris", password: "phx", username: "chrismccord"}]
+```
+
+```
+iex> Repo.get User, 2
+
+%Vinci.User{id: 2, name: "Bruce", password: "7langs", username: "redrapids"}
+
+iex(6)> Repo.get_by User, name: "Chris"
+
+%Vinci.User{id: 3, name: "Chris", password: "phx", username: "chrismccord"}
+```
