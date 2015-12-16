@@ -58,3 +58,9 @@ Before moving on, configure your database in config/dev.exs and run:
     $ mix ecto.create
 
 ```
+
+Start it up with _mix phoenix.server_ to make sure it’s working, and point your browser to [localhost:4000](
+http://localhost:4000/).
+
+#### A Simple Home Page
+
