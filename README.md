@@ -92,3 +92,11 @@ iex(6)> Repo.get_by User, name: "Chris"
 
 %Vinci.User{id: 3, name: "Chris", password: "phx", username: "chrismccord"}
 ```
+
+#### Building a Controller
+
+#### Coding Views
+
+#### Using Helpers
+
+[To learn more about existing HTML helpers](http://hexdocs.pm/phoenix_html/Phoenix.HTML.html)

@@ -5,9 +5,9 @@ defmodule Vinci.Repo do
 
     def all(Vinci.User) do
         [
-            %Vinci.User{id: 1, name: "José", username: "josevalim", password: "elixir"},
-            %Vinci.User{id: 2, name: "Bruce", username: "redrapids", password: "7langs"},
-            %Vinci.User{id: 3, name: "Chris", username: "chrismccord", password: "phx"}
+            %Vinci.User{id: "1", name: "José", username: "josevalim", password: "elixir"},
+            %Vinci.User{id: "2", name: "Bruce", username: "redrapids", password: "7langs"},
+            %Vinci.User{id: "3", name: "Chris", username: "chrismccord", password: "phx"}
         ]
     end
 
