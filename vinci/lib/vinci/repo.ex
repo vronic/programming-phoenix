@@ -2,7 +2,7 @@ defmodule Vinci.Repo do
     @moduledoc """
     In memory repository.
     """
-
+    
     def all(Vinci.User) do
         [
             %Vinci.User{id: "1", name: "José", username: "josevalim", password: "elixir"},

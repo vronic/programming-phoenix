@@ -100,3 +100,8 @@ iex(6)> Repo.get_by User, name: "Chris"
 #### Using Helpers
 
 [To learn more about existing HTML helpers](http://hexdocs.pm/phoenix_html/Phoenix.HTML.html)
+
+#### Showing a User
+##### Naming Conventions
+##### Nesting Templates
+##### Layouts
