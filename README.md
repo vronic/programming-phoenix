@@ -105,3 +105,10 @@ iex(6)> Repo.get_by User, name: "Chris"
 ##### Naming Conventions
 ##### Nesting Templates
 ##### Layouts
+
+### Ecto and Changesets
+#### Understanding Ecto
+#### Defining the User Schema
+#### Using the Model to Add Data
+
+
