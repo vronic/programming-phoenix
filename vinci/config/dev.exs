@@ -22,7 +22,8 @@ config :vinci, Vinci.Endpoint,
       ~r{priv/gettext/.*(po)$},
       ~r{web/views/.*(ex)$},
       ~r{web/templates/.*(eex)$},
-      ~r{lib/.*(ex)$}
+      ~r{lib/.*(ex)$},
+      ~r{web/models/.*(ex)$}
     ]
   ]
 

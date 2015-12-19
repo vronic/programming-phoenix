@@ -110,5 +110,7 @@ iex(6)> Repo.get_by User, name: "Chris"
 #### Understanding Ecto
 #### Defining the User Schema
 #### Using the Model to Add Data
+#### Building Forms
+#### Creating Resources
 
 
